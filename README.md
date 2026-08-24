@@ -7,7 +7,7 @@ Welcome to my personal study repository for the **CompTIA Security+** exam. This
 
 ## 📅 Repository Structure
 
-The notes are structured domain-by-domain covering all 5 core security areas:
+The notes are structured domain-by-domain, covering all 5 core security areas:
 
 * **Domain 1.0:** General Security Concepts (*12%*)
 * **Domain 2.0:** Threats, Vulnerabilities, & Mitigations (*22%*)
