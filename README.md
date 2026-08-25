@@ -36,6 +36,7 @@ The notes are structured domain-by-domain, covering all 5 core security areas:
 1. **Daily Study:** Navigate into individual domain files or week-by-week folders to review daily topics.
 2. **Markdown Preview:** Use VS Code or GitHub's native viewer to render LaTeX math equations ($\text{ALE} = \text{SLE} \times \text{ARO}$) and tables clearly.
 3. **Flashcard Reference:** Key definitions and acronyms can be reviewed in the summary matrices at the end of each session.
+4. daily study or revise the notes and video sources such as Professor Messer YT channel 
 
 ---
 
