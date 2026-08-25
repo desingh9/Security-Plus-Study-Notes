@@ -81,7 +81,7 @@ Mindset: Remember, CompTIA loves scenarios. Don't just memorize the definitions;
 
 
 
-Day-2, we will dive into Security Control Types (Technical, Operational, Managerial) and how they apply to these core pillars!
+Day-3, we will dive into Security Control Types (Technical, Operational, Managerial) and how they apply to these core pillars!
 
 
 
