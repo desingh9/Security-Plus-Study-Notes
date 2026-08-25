@@ -83,3 +83,27 @@ Mindset: Remember, CompTIA loves scenarios. Don't just memorize the definitions;
 
 Day-2, we will dive into Security Control Types (Technical, Operational, Managerial) and how they apply to these core pillars!
 
+
+
+
+
+Read/Watch: Spend 20 minutes reviewing the CIA Triad and AAA concepts in your primary study material (e.g., Professor Messer, Sybex, or Udemy).
+
+
+
+Flashcards: Create cards for Confidentiality, Integrity, Availability, Non-repudiation, and AAA.
+
+
+
+Mindset: Remember, CompTIA loves scenarios. Don't just memorize the definitions; think about how a company loses integrity or ensures non-repudiation.
+
+
+
+In Next step day 3, we will dive into Security Control Types (Technical, Operational, Managerial) and how they apply to these core pillars!
+
+
+
+
+
+
+
