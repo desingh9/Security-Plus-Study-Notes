@@ -120,11 +120,7 @@ Scenario: An attacker intercepts a company email, alters the financial figures i
 
 
 
-
-
-
-
-Answer: Integrity. The data was altered in transit by an unauthorized party.
+Answer: Integrity. An unauthorized party altered the data in transit.
 
 
 
