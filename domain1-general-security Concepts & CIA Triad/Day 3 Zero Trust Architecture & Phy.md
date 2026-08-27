@@ -1,0 +1,1 @@
+Day 3: Zero Trust Architecture & Physical Security Concepts
