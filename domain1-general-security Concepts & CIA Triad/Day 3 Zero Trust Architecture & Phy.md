@@ -50,7 +50,23 @@
 
 
 
+Digital security is useless if an attacker can simply walk into a server room and pull a hard drive. You must know these physical mechanisms:
 
+* Bollards: Thick, heavy concrete or metal posts designed to prevent vehicles from ramming into a building.
+* Mantraps / Access Portals: A specialized two-door entry system where the first door must close 
+before the second door opens. It is highly effective at preventing tailgating (following an authorized person through a door).
+
+
+
+* Fencing \& Signage: The first line of perimeter defense (Deterrent and Preventive).
+
+
+
+* Alarms \& Motion Detection: Infrared, ultrasonic, or microwave sensors used to 
+detect unauthorized movement (Detective).
+* Faraday Cages: An enclosure made of conducting material used to block external electromagnetic fields. 
+It prevents unauthorized wireless signals from entering or leaving a specific area.
+* 
 
 
 
