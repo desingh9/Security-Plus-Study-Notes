@@ -70,3 +70,40 @@ It prevents unauthorized wireless signals from entering or leaving a specific ar
 
 
 
+📊 Quick Summary: The Zero Trust Relationship
+
+* \[ User / Device ]
+           │
+* &#x20;          ▼
+* ┌──────────────────────┐
+* │  Policy Enforcement  │ <──── (Control Plane: PE decides, PA commands)
+* │     Point (PEP)      │
+* └──────────────────────┘
+* &#x20;          │
+* &#x20;          ▼  (Data Plane: Authenticated \& Encrypted)
+* ┌──────────────────────┐
+* │  Corporate Resource  │
+* └──────────────────────┘
+
+
+
+🧠 Quick Knowledge Check
+
+Scenario: A security administrator configures a network so that even when a user successfully logs into their workstation from the main corporate office, 
+they must re-authenticate and pass a device health check before accessing the payroll database. Which framework is being actively implemented?
+
+
+
+* Answer: Zero Trust. Rather than trusting the user because they are physically inside the office network, 
+the system explicitly verifies the user's context and device state at the resource level.
+
+
+
+
+
+
+
+
+
+
+
