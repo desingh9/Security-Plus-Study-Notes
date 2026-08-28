@@ -101,7 +101,21 @@ the system explicitly verifies the user's context and device state at the resour
 
 
 
+📝 Today's Action Items
 
+Read/Watch: Spend 20 minutes studying the Control Plane vs. Data Plane and the role of the Policy Engine in Zero Trust.
+
+
+
+Flashcards: Create cards for Policy Engine, Policy Enforcement Point, Mantrap, and Faraday Cage.
+
+
+
+Visualizing Question Styles: Remember, CompTIA loves to ask how to prevent "tailgating." The answer is almost always a mantrap or a turnstile.
+
+
+
+* Next Chapter, we will explore Deception Technologies (Honeypots) and how Change Management impacts an organization's security posture!
 
 
 
