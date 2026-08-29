@@ -23,6 +23,23 @@ By redirecting threat actors from production assets into decoy environments, dec
 
 
 
+🔄 2. Change Management Processes \& Security Impact
+
+A robust change management framework guarantees that modifications to network configurations, infrastructure, or software do not introduce security vulnerabilities or cause unplanned service disruptions.
+
+* Key Pillars of a Secure Change Process:
+
+&#x20;\* Business Processes \& Approvals: Proposed changes must undergo formal evaluation and obtain authorization—typically from a Change Advisory Board (CAB)—prior to implementation.
+
+* Test Results \& Sandbox Environments: Implementations must undergo thorough validation in isolated, non-production environments before deployment.
+* Documentation \& Version Control: Maintaining updated architecture maps, SOPs, and system configurations ensures changes are fully traceable over time.
+* Backout Plan: A required, step-by-step procedure to revert systems to a stable operational baseline should the change encounter severe issues.
+* Maintenance Windows \& Downtime: Planning deployments during designated low-traffic hours helps mitigate business disruption and safely manage service restarts.
+
+
+
+
+
 
 
 
