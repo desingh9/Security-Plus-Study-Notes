@@ -52,5 +52,14 @@ When unauthorized or unvetted changes occur, organizations face several primary 
 
 
 
+🧠 Quick Knowledge Check
+
+* Scenario: A system administrator leaves a dummy cloud storage API credential inside a code repository to detect unauthorized scraping by malicious users. Which deception technique is being utilized?
+* Answer: Honeytoken. Placing decoy credentials or data tokens to alert defenders when used is a classic application of honeytokens.
+
+
+
+
+
 
 
