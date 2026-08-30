@@ -38,6 +38,16 @@ A robust change management framework guarantees that modifications to network co
 
 
 
+⚠️ Security Risks of Poor Change Management
+
+When unauthorized or unvetted changes occur, organizations face several primary risks:
+
+1. Misconfiguration: Accidentally opening ports, disabling firewalls, or removing access controls.
+
+2\. Downtime \& Outages: Unintended dependencies failing when an application or service restarts unexpectedly.
+
+3\. Legacy Dependencies: Upgrading a single library or OS version without testing can break critical legacy business applications.
+
 
 
 
