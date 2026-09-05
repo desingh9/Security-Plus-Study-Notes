@@ -25,7 +25,7 @@ PBQs appear right at the beginning of your exam (usually the first 3 to 5 questi
 
 ## **🧱 2\. PBQ Drill: Firewall ACL Configuration**
 
-Firewall ACL rules are processed sequentially from top to bottom (**First Match Principle**). Once a packet matches a rule, processing stops. The last rule in a properly built firewall list is always an **Implicit Deny**.
+Firewall ACL rules are processed sequentially from top to bottom (First Match Principle). Once a packet matches a rule, processing stops. The last rule in a properly built firewall list is always an **Implicit Deny**.
 
 ### **Typical Ruleset Scenario:**
 
