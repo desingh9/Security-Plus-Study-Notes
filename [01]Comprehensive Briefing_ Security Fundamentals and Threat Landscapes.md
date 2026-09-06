@@ -46,12 +46,15 @@ Risk exists at the intersection of a **Threat** (anything that can cause harm) a
 5. **Compensating:** Alternative measures used when primary controls are unfeasible.  
 6. **Directive:** Mandates actions via policy and documentation.
 
-## **3\. Architecture: Zero Trust Model**
+* ## **3\. Architecture: Zero Trust Model Framework**
 
-The Zero Trust Model demands verification for every device and transaction regardless of origin. It is structured into two planes:
+Operating under the core rule that every transaction and endpoint requires explicit verification, the Zero Trust architecture divides functions across two foundational operational planes:
 
-* **Control Plane:** The framework responsible for managing and enforcing policy. It includes **Adaptive Identity** (real-time validation of behavior/location), **Threat Scope Reduction** (minimizing the "blast radius"), and a **Policy Engine** that cross-references requests with predefined rules.  
-* **Data Plane:** Where the actual execution occurs. It includes the **Subject/System** attempting access and the **Policy Enforcement Point** where access is granted or denied.
+* **Control Plane:** Directs governance and administrative enforcement. Key components comprise:  
+  * **Policy Engine:** Evaluates incoming requests against established organizational compliance standards.  
+  * **Adaptive Identity:** Provides continuous, real-time assessment of user behavior, dynamic context, and location details.  
+  * **Threat Scope Reduction:** Restricts operational access to contain potential exposure and limit blast radius.  
+* **Data Plane:** Handles workload execution and request fulfillment. Core elements include:**Subject/System:** The requesting entity, user, or device seeking resource access.**Policy Enforcement Point:** The operational mechanism that approves, restricts, or blocks resource access based on Control Plane decisions.
 
 ## **4\. Threat Actor Analysis**
 
