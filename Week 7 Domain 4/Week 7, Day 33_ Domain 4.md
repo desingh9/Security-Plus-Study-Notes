@@ -52,7 +52,7 @@ Be ready to recognize these operational tools and formats instantly:
 
 ## **🧠 Quick Knowledge Check**
 
-> **Scenario:** A SOC analyst receives a high-priority alert that an endpoint workstation is beaconing out to a known malicious Command and Control (C2) IP address over port 443\. What is the analyst's immediate NEXT step?
+> **Scenario:** An endpoint is beaconing to a malicious C2 IP over port 443\. What is the immediate NEXT action?
 
 * *Answer:* **Isolate the infected workstation from the network** (Containment). Isolating the endpoint stops C2 commands and prevents lateral movement across the internal subnet while preserving system RAM for analysis.
 
@@ -62,5 +62,19 @@ Be ready to recognize these operational tools and formats instantly:
 2. **Flashcards:** Create cards for *Order of Volatility, Bit-Stream Image vs File Copy, Hardware Write Blocker, Chain of Custody, SOAR Runbooks,* and *Syslog Ports (514 vs 6514\)*.  
 3. **Exam Mindset:** On evidence preservation questions, if an option suggests analyzing the *original target hard drive directly*, it is **ALWAYS WRONG**. Analysis is performed only on verified forensic copies.
 
-Tomorrow, for **Week 7, Day 34**, we will execute our **Domain 5.0 (GRC) High-Yield Remediation Drill**\!
+Coming up tomorrow, for **Week 7, Day 34**, we will carry out our **Domain 5.0 (GRC) High-Yield Remediation Drill**\!
+
+## **📘 Week 7, Day 34: Domain 5.0 (GRC) High-Yield Remediation Drill**
+
+Welcome to Day 34\! Following yesterday's high-yield drill on Domain 4.0 (Security Operations), today we conclude our domain-focused remediation series with **Domain 5.0: Governance, Risk, and Compliance (GRC)**. This domain represents **20% of your total exam score**.
+
+Questions in this section evaluate your mastery of key concepts, including quantitative risk assessment, compliance and regulatory standards, security framework methodologies, SOC report classifications, and corporate security policies.
+
+## **⚖️ 1\. Quantitative Risk Formula Master Class**
+
+Be prepared to perform these quantitative risk equations rapidly during the exam. Ensure you have the core formulas memorized:
+
+$$\\text{Single Loss Expectancy (SLE)} \= \\text{Asset Value (AV)} \\times \\text{Exposure Factor (EF)}$$
+
+$$\\text{Annualized Loss Expectancy (ALE)} \= \\text{SLE} \\times \\text{Annualized Rate of Occurrence (ARO)}$$
 
