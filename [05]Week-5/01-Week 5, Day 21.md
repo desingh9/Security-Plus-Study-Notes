@@ -32,3 +32,94 @@ Whereas a SIEM flags potential threats for analysts, a **SOAR** platform automat
 * **Playbooks:** Formally documented procedures outlining step-by-step logic for addressing particular incident scenarios (such as handling phishing attacks).  
 * **Runbooks:** Automated workflows run directly within the SOAR system to execute playbook tasks automatically—such as disconnecting compromised hosts, revoking active session tokens, or blocking malicious IP addresses at the firewall.
 
+## 
+
+## 
+
+## **📊 SIEM vs. SOAR Comparison**
+
+| Feature | SIEM | SOAR |
+| :---- | :---- | :---- |
+| **Primary Goal** | Centralized log ingestion, correlation, & alerting | Threat response automation & orchestration |
+| **Action Type** | Passive (detects and notifies) | Active (executes response actions) |
+| **Key Enabler** | Correlation rules & NTP log timestamps | Automated Playbooks & Runbooks |
+| **Analyst Impact** | Provides visibility & alerts | Reduces manual workload & speeds containment |
+
+## **🧠 Quick Knowledge Check**
+
+> **Scenario:** During an incident investigation, a security analyst finds that log entries from a firewall indicate an attack occurred at 14:00 UTC, while the target server's logs show the attack occurred at 14:15 UTC. What fundamental protocol was misconfigured or missing on these appliances?
+
+* *Answer:* **NTP (Network Time Protocol)**. Without time synchronization across devices, correlation engines and analysts cannot build an accurate sequence of events.
+
+## **📝 Today's Action Items**
+
+1. **Read/Watch:** Review SIEM, SOAR, and NTP functionality in Domain 4.2. Focus on how SOAR runbooks automate security tasks.  
+2. **Flashcards:** Create cards for *Syslog ports (UDP 514 vs TCP 6514), NTP (UDP 123), SIEM Correlation Engine, SOAR, Playbooks vs. Runbooks,* and *NetFlow*.  
+3. **Exam Mindset:** If a scenario asks how to *automatically isolate a compromised workstation as soon as an alert fires*, select **SOAR / Runbook execution**.
+
+Tomorrow, we will explore **Incident Response Frameworks & The IR Lifecycle** 
+
+(Preparation, Detection, Containment, Eradication, Recovery, and Lessons Learned)\!
+
+## 
+
+## 
+
+## **📘 Week 5, Day 22: Incident Response Frameworks & The IR Lifecycle**
+
+Yesterday, we set up centralized log collection, SIEM correlation, and SOAR automation. Today, we put those detection mechanisms to work by diving into **Incident Response Frameworks & The IR Lifecycle** (Domain 4.3).
+
+When a security breach occurs, chaos is the enemy. A structured, standardized Incident Response (IR) plan ensures that teams act systematically to minimize damage, preserve evidence, and restore normal operations quickly.
+
+## **🔄 1\. The Incident Response Lifecycle (NIST SP 800-61)**
+
+CompTIA tests heavily on the sequential stages of the IR lifecycle according to standards like NIST SP 800-61 and ISO/IEC 27035\. You must know what activities happen in each specific phase:
+
+┌──────────────────────────────────────────────────────┐
+
+│ 1\. Preparation │  
+└────────────────────────┬─────────────────────────────┘  
+                           │  
+                          ▼  
+┌──────────────────────────────────────────────────────┐  
+│ 2\. Detection & Analysis │  
+└────────────────────────┬─────────────────────────────┘  
+                           │  
+                           ▼  
+┌──────────────────────────────────────────────────────┐  
+│ 3\. Containment, Eradication, & Recovery │ ◄──┐  
+└──────────────────────────┬───────────────────────────┘ │(Iterative Loop)  
+                            │ ───┘  
+                           ▼  
+┌──────────────────────────────────────────────────────┐  
+│ 4\. Post-Incident Activity (Lessons Learned) │
+
+└──────────────────────────────────────────────────────┘
+
+### 
+
+### **Phase 1: Preparation**
+
+* **Goal:** Establish capabilities, policies, tools, and training *before* an incident occurs.  
+* **Key Actions:** Developing IR plans, building jump kits, configuring backup systems, establishing communication call trees, and running table-top exercises.
+
+### **Phase 2: Detection & Analysis**
+
+* **Goal:** Identify potential security incidents, determine their scope, and confirm validity.  
+* **Key Actions:** Analyzing SIEM alerts, reviewing host logs, triaging alerts, and determining whether an anomaly is a false positive or an actual breach.
+
+### **Phase 3: Containment, Eradication, & Recovery**
+
+* **Containment:** Limit the damage and prevent the threat from spreading across the network.  
+  * *Short-term:* Isolating infected endpoints from the network, disabling compromised user accounts.  
+  * *Long-term:* Applying temporary firewall blocks or network segmentation changes while systems stay running.  
+* **Eradication:** Removing the root cause of the incident from the environment.  
+  * *Actions:* Deleting malware files, terminating malicious processes, removing rogue user accounts, and patching the exploited vulnerability.  
+* **Recovery:** Safely restoring impacted systems back to normal operational status.  
+  * *Actions:* Rebuilding servers from clean golden images, restoring data from verified uninfected backups, validating system integrity, and monitoring traffic closely as services come back online.
+
+### **Phase 4: Post-Incident Activity (Lessons Learned)**
+
+* **Goal:** Analyze the incident response process to improve future defenses and plans.  
+* **Key Actions:** Holding a post-mortem meeting within 1–2 weeks, documenting the incident timeline, updating IR playbooks, and modifying security controls to prevent recurrence.
+
