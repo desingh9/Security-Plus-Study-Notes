@@ -19,6 +19,12 @@ By leveraging this model, security teams can methodically uncover, evaluate, and
 | Denial of Service | Disrupting system operations to block legitimate users from accessing services. | Availability |
 | Elevation of Privilege | Illegally gaining higher permissions to execute unauthorized tasks. | Authorisation |
 
+As you can see, the table above also provides what component of the CIA triad is violated. The STRIDE framework is built upon this foundational information security concept.
+
+By systematically analysing these six categories of threats, organisations can proactively identify and address potential vulnerabilities in their systems, applications, or infrastructure, enhancing their overall security posture.
+
+![]()
+
 The STRIDE threat model aligns with the core principles of the CIA triad (and related security concepts) as follows:
 
 *   
