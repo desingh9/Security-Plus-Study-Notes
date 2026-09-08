@@ -123,3 +123,37 @@ CompTIA tests heavily on the sequential stages of the IR lifecycle according to 
 * **Goal:** Analyze the incident response process to improve future defenses and plans.  
 * **Key Actions:** Holding a post-mortem meeting within 1–2 weeks, documenting the incident timeline, updating IR playbooks, and modifying security controls to prevent recurrence.
 
+## 
+
+## 
+
+## 
+
+## 
+
+## **🛠️ 2\. Containment Strategies: Isolation vs. Shutdown**
+
+CompTIA scenario questions often test when to choose specific containment techniques:
+
+| Strategy | Execution | Best Used When... |
+| :---- | :---- | :---- |
+| **Network Isolation** | Disconnecting host network cables or using EDR to quarantine network adapters | Preserving system state/RAM for forensic analysis while preventing lateral movement. |
+| **System Shutdown** | Powering down the machine completely | **Rarely recommended** unless critical hardware damage is occurring (wipes volatile RAM evidence). |
+| **Segmentation** | Placing compromised subnets into an isolated quarantine VLAN | Containing multi-system or domain-wide infections (e.g., active ransomware propagation). |
+
+## **🧠 Quick Knowledge Check**
+
+> **Scenario:** After removing malware binaries and patching a vulnerable web application, an incident response team restores system databases from clean backups and verifies that web services are operating normally before opening traffic to the public. Which phase of the incident response lifecycle is being performed?
+
+* *Answer:* **Recovery**. The team is restoring systems to full production status after the threat has been eradicated.
+
+## **📝 Today's Action Items**
+
+1. **Study Focus:** Examine the NIST SP 800-61 Incident Response phases within Domain 4.3, placing specific emphasis on clearly differentiating Eradication from Recovery.  
+2. **Flashcards:** Build review cards covering *Preparation, Detection & Analysis, Containment vs. Eradication vs. Recovery,* and *Lessons Learned / Post-Mortem*.  
+3. **Exam Strategy:** When a scenario asks for the immediate *initial* step following a confirmed ransomware outbreak on an endpoint, prioritize **Isolating / Containing the workstation from the network** over powering down the machine or immediately purging files.
+
+In the upcoming module, we will delve into **Digital Forensics & Evidence Preservation**—focusing on the Chain of Custody, Order of Volatility, and Disk/RAM Imaging\!
+
+Tomorrow, we will explore **Digital Forensics & Evidence Preservation** (Chain of Custody, Order of Volatility, and Disk/RAM Imaging)\!
+
