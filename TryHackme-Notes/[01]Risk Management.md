@@ -18,7 +18,7 @@ Before starting, it is essential to define the main terms to avoid ambiguity or 
 
 &nbsp;
 
-A threat is a potential harm or danger to an individual, organisation, or system. Threats can be classified into three main categories: human-made, technical, or natural.
+A **threat** is anything that could potentially harm or damage a person, organization, or system. It generally falls into one of three categories: human-made, technical, or natural.
 
 &nbsp;
 
@@ -38,11 +38,11 @@ Industrial accidents
 
 Arson
 
-As can be seen, human-made threats are not limited to cyberattacks; although they do not require technical expertise, arson is a grave threat. Realising any of these threats can have the power to disrupt the whole business; both a cyberattack and arson can prevent a company from functioning for a while.
+As you can see, human-made threats aren't just about cyberattacks. For example, setting a fire (arson) doesn't require technical skills, but it is still a major danger. Any of these events can completely pause business operations, whether it is a hack or physical damage.
 
 &nbsp;
 
-Technical threats: These threats result from technological failures, malfunctions, or vulnerabilities. Examples include:
+**Technical threats**: These occur when technology breaks, fails, or has security flaws. Common examples include:
 
 &nbsp;
 
@@ -56,11 +56,11 @@ Network and system vulnerabilities
 
 Equipment malfunctions
 
-A power outage can halt an entire company without a backup power source. A failed power supply means the whole server is down unless another backup power supply is on standby. Any of these technical threats can prevent business processes from moving forward; therefore, considering each of these threats is a must in any risk analysis.
+For instance, a sudden power failure can shut down an entire office if there is no backup generator. Similarly, if a server's main power component fails without a backup on standby, all system operations stop. Because tech failures can quickly pause daily work, accounting for them is a critical part of risk assessment.
 
 &nbsp;
 
-Natural threats: These are threats caused by natural events or phenomena. Examples include:
+**Natural threats**: These are threats caused by natural events or phenomena. Examples include:
 
 &nbsp;
 
