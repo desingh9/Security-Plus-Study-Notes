@@ -1,6 +1,6 @@
-**PASTA Threat Modelling Framework**: Study Guide & Practice Exercises
+# **PASTA Threat Modelling Framework**
 
-&nbsp;
+Study Guide & Practice Exercises
 
 PASTA stands for **Process for Attack Simulation and Threat Analysis**. It is a step-by-step, risk-centric threat modelling framework used by organizations to identify, evaluate, and mitigate security threats to their applications and infrastructure.
 
@@ -49,51 +49,7 @@ Consider a modern web-based retail platform. Practice applying each stage of PAS
 
 &nbsp;
 
-1-Define the Objectives
-
-Establish the scope of the threat modelling exercise by identifying the systems, applications, or networks being analysed and the specific security objectives and compliance requirements to be met.
-
-&nbsp;
-
-2-Define the Technical Scope
-
-Create an inventory of assets, such as hardware, software, and data, and develop a clear understanding of the system's architecture, dependencies, and data flows.
-
-&nbsp;
-
-3-Decompose the Application
-
-Break down the system into its components, identifying entry points, trust boundaries, and potential attack surfaces. This step also includes mapping out data flows and understanding user roles and privileges within the system.
-
-&nbsp;
-
-4-Analyse the Threats&nbsp;
-
-Identify potential threats to the system by considering various threat sources, such as external attackers, insider threats, and accidental exposures. This step often involves leveraging industry-standard threat classification frameworks or attack libraries.
-
-&nbsp;
-
-5 Vulnerabilities and Weaknesses Analysis
-
-Analyse the system for existing vulnerabilities, such as misconfigurations, software bugs, or unpatched systems, that an attacker could exploit to achieve their objectives. Vulnerability assessment tools and techniques, such as static and dynamic code analysis or penetration testing, can be employed during this step.
-
-&nbsp;
-
-6 Analyse the Attacks
-
-Simulate potential attack scenarios and evaluate the likelihood and impact of each threat. This step helps determine the risk level associated with each identified threat, allowing security teams to prioritise the most significant risks.
-
-&nbsp;
-
-7 Risk and Impact Analysis
-
-Develop and implement appropriate security controls and countermeasures to address the identified risks, such as updating software, applying patches, or implementing access controls. The chosen countermeasures should be aligned with the organisation's risk tolerance and security objectives.
-
-&nbsp;
-
-&nbsp;
-
-**PASTA Methodology Guidelines**
+PASTA Methodology Guidelines
 
 &nbsp;
 
@@ -110,6 +66,46 @@ Develop and implement appropriate security controls and countermeasures to addre
 | 7 | **Risk & Impact Analysis** | Quantify business risk and select safeguards | Calculate financial and operational business impact, prioritize risks by severity, and implement cost-effective countermeasures and controls. |
 
 &nbsp;
+
+Benefits of Using the PASTA Framework
+
+&nbsp;
+
+Adopting a risk-centric approach through the PASTA framework provides key advantages for organizations aiming to strengthen their threat modelling capabilities and overall security posture.
+
+&nbsp;
+
+* **Adaptability and Compliance:** The methodology can be customized to support specific organizational goals, facilitating regulatory compliance by systematically detecting risks and verifying the deployment of appropriate security safeguards.  
+* **Cross-Functional Collaboration:** Similar to other security frameworks, PASTA encourages active collaboration across departments—including developers, architects, and security specialists—building a unified understanding of risk and enhancing communication.
+
+**Comprehensive Risk Coverage:** A major value of PASTA lies in its structured, seven-step process, which ensures complete visibility across the entire threat landscape. This enables organizations to proactively mitigate vulnerabilities and sustain a resilient defense tailored to their needs.
+
+&nbsp;
+
+&nbsp;
+
+# Application of PASTA Framework
+
+To apply the concepts discussed in this task, let's simulate a scenario wherein we can use the PASTA framework.
+
+**Scenario:** Your organisation is known for its online banking platform, catering to many users across the Asia Pacific region. To ensure its resiliency to potential threats, you are tasked to conduct a threat modelling exercise using the PASTA framework.
+
+As the leader of this initiative, you will be working with different teams to create a thorough threat modelling plan. Together, you aim to identify potential security threats and protect your online banking platform, ensuring the safety of your customers' information.
+
+As a guide, here are the roles and responsibilities of the teams joining the initiative:
+
+&nbsp;
+
+| Team | Roles and Responsibilities |
+| :---- | :---- |
+| **Development Team** | Responsible for building systems and applications used by the organisation. |
+| **System Architecture Team** | Responsible for designing the overall architecture of the cloud services used by the organisation. |
+| **Security Team** | Provide expertise on threats, vulnerabilities, and risk mitigation strategies. |
+| **Business Stakeholder Team** | Provides valuable input on critical assets and business processes, and ensures alignment between the initiative and the organisation's strategic goals. |
+
+You must follow the seven-step PASTA process in choosing whom to approach for the information you need for this threat modelling exercise.
+
+To start working, click on the green View Site button in this task to open the static site lab and start working on your preparation for the threat modelling exercise by following the provided instructions.
 
 &nbsp;
 
