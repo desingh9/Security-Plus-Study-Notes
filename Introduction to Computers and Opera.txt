@@ -1,0 +1,19 @@
+Introduction to Computers and Operating Systems and Security
+
+
+ This course gave me a much clearer understanding of how operating systems, hardware components, and security protocols work together in an enterprise setting. The most challenging part was grasping detailed network and OS security configurations, but reviewing step-by-step examples helped make those concepts click. Overall, this course has built a strong foundation for my goals, and I feel much more confident tackling IT security fundamentals moving forward.  
+
+*	
+Here is a template you can use or adapt for your course reflection post:
+
+Course Reflection: Key Takeaways & Personal Growth
+
+1. Impact on Understanding of Computers, Operating Systems, and Security This course has fundamentally changed how I view everyday digital systems. Before, security felt like an extra hassle or a set of rigid rules. Now, I understand why those protocols exist—seeing firsthand how interconnected operating system security, network entry points, and identity management really are. Understanding concepts like credential stuffing, zero-knowledge encryption, and defense-in-depth made me realize that cybersecurity isn't just about technical barriers; it's about building resilient habits and architectures.
+
+2. Challenges and How I Overcame Them The most challenging part of the course for me was getting to grips with low-level operating system security concepts and system configurations. Connecting theoretical security models to real-world applications took some trial and error. I overcame this by breaking down complex concepts step-by-step, working through hands-on practice, and taking structured notes to map out how data and permissions flow through a system.
+
+3. Question at the Top of My Mind Now that I've completed the course, I keep thinking about the human element versus technical controls: As automated security tools and AI-driven threats both advance rapidly, what strategies are proving most effective at building an authentic security culture within organizations without creating friction for everyday users? I’d love to hear how any of you approach balancing security enforcement with user convenience!
+
+4. Growth as a Learner I’ve become much more proactive and structured in my learning approach. Instead of just trying to memorize concepts for an exam or assignment, I focused on understanding the core mechanics behind why vulnerabilities exist and how defensive layers work together. It’s given me a lot more confidence when troubleshooting technical problems independently.
+
+5. Impact on Personal & Professional Goals Professionally, this course has solidified my interest in cybersecurity and computing infrastructure. It provided a solid foundational framework that I can build on for future certifications, academic projects, and career pathways in IT and security operations. Personally, it’s made me far more conscious of my own digital footprint and cyber hygiene!
