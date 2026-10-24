@@ -17,3 +17,22 @@ Course Reflection: Key Takeaways & Personal Growth
 4. Growth as a Learner I’ve become much more proactive and structured in my learning approach. Instead of just trying to memorize concepts for an exam or assignment, I focused on understanding the core mechanics behind why vulnerabilities exist and how defensive layers work together. It’s given me a lot more confidence when troubleshooting technical problems independently.
 
 5. Impact on Personal & Professional Goals Professionally, this course has solidified my interest in cybersecurity and computing infrastructure. It provided a solid foundational framework that I can build on for future certifications, academic projects, and career pathways in IT and security operations. Personally, it’s made me far more conscious of my own digital footprint and cyber hygiene!
+
+
+Hands-on Activity: Helping a New Employee Stay Secure!
+Feedback session
+
+You faced that challenge head-on! Here is a summary of my notes:
+Areas for improvement:
+Task 1: Introduction and Purpose
+
+You missed the opportunity to introduce yourself and explain the purpose of the briefing, which is essential for building rapport. You started the conversation by saying, "I'm ready to start," which did not establish a welcoming tone. To improve, practice opening with a friendly introduction that clearly states why this security conversation is important for the employee's success.
+Task 2: Company Systems and Data Management
+
+You did not explain company systems or data management practices, and your responses were inconsistent, such as when you said, "its not that risky if you are using personal network." This contradicts the need for enterprise security. To improve, focus on explaining the 'why' behind security rules using plain language, and avoid giving conflicting advice that undermines company policy.
+Task 3: Email Security Practices
+
+You failed to provide clear, relatable examples for email security and instead gave confusing instructions, such as telling the employee, "if you are welll aware of these file , you can share it." This does not address the risks of data leakage. To improve, use concrete, real-world examples to explain why specific email habits are required, and ensure your guidance is consistent with security best practices.
+Task 4: Closing and Commitment
+
+The conversation ended without securing a commitment to a security habit or providing a proper sign-off. You did not acknowledge the employee's final questions or guide them toward a clear conclusion. To improve, ensure you explicitly invite the employee to commit to one security habit and provide an encouraging, professional closing to the session.
